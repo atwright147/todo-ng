@@ -1,0 +1,25 @@
+ul {
+  margin: 0;
+  padding-left: 25px;
+}
+
+li {
+  margin-bottom: 7px;
+}
+
+p {
+  margin: 0;
+}
+
+span {
+  background-color: red;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+
+.complete {
+  span {
+    background-color: green;
+  }
+}

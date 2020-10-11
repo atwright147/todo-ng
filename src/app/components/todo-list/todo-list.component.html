@@ -1,0 +1,7 @@
+<ul class="todo-list">
+  <li *ngFor="let todo of todos" [class.complete]="todo.complete">
+    <p class="name">{{todo.name}}</p>
+    <p class="description">{{todo.description}}</p>
+    <span class="complete"></span>
+  </li>
+</ul>
