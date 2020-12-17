@@ -7,7 +7,7 @@ import { initialState, Todo, TodosService } from './services/todos.service';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-  private todos: Todo[] = initialState;
+  todos: Todo[] = initialState;
 
   constructor(
     private readonly todosService: TodosService,

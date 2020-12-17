@@ -1,0 +1,8 @@
+<div class="notification-list" [@listAnimation]="notifications.length">
+  <div
+    *ngFor="let notification of notifications"
+    class="notification notification-{{notification.type}}"
+  >
+    <p>{{notification.title}} &ndash; {{notification.description}} <button (click)="remove(notification)">&times;</button></p>
+  </div>
+</div>

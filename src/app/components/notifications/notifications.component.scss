@@ -1,0 +1,35 @@
+:host {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 10px;
+}
+
+p {
+  margin: 0;
+}
+
+.notification {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-left-width: 10px;
+  padding: 10px 15px;
+  margin-bottom: 5px;
+  transition: position 1s ease;
+
+  &-list {
+    position: relative;
+  }
+
+  &-info {
+    border-left-color: dodgerblue;
+  }
+
+  &-warning {
+    border-left-color: darkorange;
+  }
+
+  &-error {
+    border-left-color: firebrick;
+  }
+}
